@@ -1,0 +1,12 @@
+﻿  declarations.c
+  Main.c
+  Generating Code...
+C:\Users\Veki\Desktop\Strukture-seminar\WhiteGrayBlackTreeSln\WhiteGrayBlackTreeSln\declarations.c(72): warning C4716: 'HandleMenu': must return a value
+C:\Users\Veki\Desktop\Strukture-seminar\WhiteGrayBlackTreeSln\WhiteGrayBlackTreeSln\declarations.c(161): warning C4715: 'CalculateNextMod': not all control paths return a value
+C:\Users\Veki\Desktop\Strukture-seminar\WhiteGrayBlackTreeSln\WhiteGrayBlackTreeSln\declarations.c(466): warning C4716: 'CheckTreeBalance': must return a value
+C:\Users\Veki\Desktop\Strukture-seminar\WhiteGrayBlackTreeSln\WhiteGrayBlackTreeSln\declarations.c(72): warning C4716: 'HandleMenu': must return a value
+C:\Users\Veki\Desktop\Strukture-seminar\WhiteGrayBlackTreeSln\WhiteGrayBlackTreeSln\declarations.c(161): warning C4715: 'CalculateNextMod': not all control paths return a value
+C:\Users\Veki\Desktop\Strukture-seminar\WhiteGrayBlackTreeSln\WhiteGrayBlackTreeSln\declarations.c(466): warning C4716: 'CheckTreeBalance': must return a value
+  declarations.h
+Debug\declarations.obj : warning LNK4042: object specified more than once; extras ignored
+  WhiteGrayBlackTreeSln.vcxproj -> C:\Users\Veki\Desktop\Strukture-seminar\WhiteGrayBlackTreeSln\Debug\WhiteGrayBlackTreeSln.exe
