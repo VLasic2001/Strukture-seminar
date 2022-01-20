@@ -407,7 +407,7 @@ int CheckTreeBalance(gPosition root)
 
         if(leftDepth-rightDepth >= 2)
         {
-            int maxTemp = max, grayTemp = 0; 
+            int maxTemp = min, grayTemp = 0; 
             FindElementFromWB(root->left, &maxTemp, 0);
             DeleteGElement(root, maxTemp);
             grayTemp = root->value;
@@ -416,7 +416,7 @@ int CheckTreeBalance(gPosition root)
         }
         else if(rightDepth-leftDepth >= 2)
         {
-            int minTemp = min, grayTemp = 0; 
+            int minTemp = max, grayTemp = 0; 
             FindElementFromWB(root->right, &minTemp, 1);
             DeleteGElement(root, minTemp);
             grayTemp = root->value;
