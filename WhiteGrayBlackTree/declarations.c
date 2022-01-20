@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h> 
+#define min 0
+#define max 999999999
 
 int HandleMenu(gPosition root)
 {
@@ -405,7 +407,7 @@ int CheckTreeBalance(gPosition root)
 
         if(leftDepth-rightDepth >= 2)
         {
-            int maxTemp = 0, grayTemp = 0; 
+            int maxTemp = max, grayTemp = 0; 
             FindElementFromWB(root->left, &maxTemp, 0);
             DeleteGElement(root, maxTemp);
             grayTemp = root->value;
@@ -414,7 +416,7 @@ int CheckTreeBalance(gPosition root)
         }
         else if(rightDepth-leftDepth >= 2)
         {
-            int minTemp = 999999999, grayTemp = 0; 
+            int minTemp = min, grayTemp = 0; 
             FindElementFromWB(root->right, &minTemp, 1);
             DeleteGElement(root, minTemp);
             grayTemp = root->value;
